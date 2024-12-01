@@ -1,0 +1,96 @@
+[
+    {
+        "id": 19,
+        "first_name": "Иван",
+        "last_name": "Иванович",
+        "job_title": "Старший дизайнер",
+        "email": "ivan.ivanov1@example.com",
+        "phone_number": "1234567891",
+        "hire_date": "2020-05-12",
+        "department_name": "Дизайн",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 20,
+                "first_name": "Мария",
+                "last_name": "Смирнова",
+                "job_title": "Графический дизайнер",
+                "email": "maria.smirnova@example.com",
+                "phone_number": "9876543210",
+                "hire_date": "2021-08-01",
+                "department_name": "Дизайн",
+                "manager": 19,
+                "manager_name": "Иван Иванович",
+                "subordinates": [
+                    {
+                        "id": 22,
+                        "first_name": "Анастасия",
+                        "last_name": "Коваленко",
+                        "job_title": "Иллюстратор",
+                        "email": "anastasia.kovalenko@example.com",
+                        "phone_number": "89991112233",
+                        "hire_date": "2018-11-10",
+                        "department_name": "Дизайн",
+                        "manager": 20,
+                        "manager_name": "Мария Смирнова",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "first_name": "Олег",
+                "last_name": "Петров",
+                "job_title": "UI/UX дизайнер",
+                "email": "oleg.petrov@example.com",
+                "phone_number": "89231234567",
+                "hire_date": "2019-03-15",
+                "department_name": "Дизайн",
+                "manager": 19,
+                "manager_name": "Иван Иванович",
+                "subordinates": [
+                    {
+                        "id": 23,
+                        "first_name": "Сергей",
+                        "last_name": "Николаев",
+                        "job_title": "Младший дизайнер",
+                        "email": "sergey.nikolaev@example.com",
+                        "phone_number": "89281123456",
+                        "hire_date": "2022-04-01",
+                        "department_name": "Дизайн",
+                        "manager": 21,
+                        "manager_name": "Олег Петров",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "first_name": "Виктория",
+                "last_name": "Сидорова",
+                "job_title": "Архитектор дизайна",
+                "email": "viktoria.sidorova@example.com",
+                "phone_number": "89304567812",
+                "hire_date": "2020-12-05",
+                "department_name": "Дизайн",
+                "manager": 19,
+                "manager_name": "Иван Иванович",
+                "subordinates": []
+            },
+            {
+                "id": 25,
+                "first_name": "Артем",
+                "last_name": "Серов",
+                "job_title": "3D-дизайнер",
+                "email": "artem.serov@example.com",
+                "phone_number": "89992223344",
+                "hire_date": "2017-06-15",
+                "department_name": "Дизайн",
+                "manager": 19,
+                "manager_name": "Иван Иванович",
+                "subordinates": []
+            }
+        ]
+    }
+]

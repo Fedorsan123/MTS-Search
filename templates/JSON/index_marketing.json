@@ -1,0 +1,123 @@
+[
+    {
+        "id": 26,
+        "first_name": "Сергей",
+        "last_name": "Кузнецов",
+        "job_title": "Руководитель отдела маркетинга",
+        "email": "sergey.kuznetsov@example.com",
+        "phone_number": "9123456789",
+        "hire_date": "2018-10-25",
+        "department_name": "Маркетинг",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 27,
+                "first_name": "Елена",
+                "last_name": "Миронова",
+                "job_title": "Специалист по контенту",
+                "email": "elena.mironova@example.com",
+                "phone_number": "8912345678",
+                "hire_date": "2022-02-15",
+                "department_name": "Маркетинг",
+                "manager": 26,
+                "manager_name": "Сергей Кузнецов",
+                "subordinates": [
+                    {
+                        "id": 30,
+                        "first_name": "Андрей",
+                        "last_name": "Петров",
+                        "job_title": "Младший маркетолог",
+                        "email": "andrey.petrov@example.com",
+                        "phone_number": "89881112233",
+                        "hire_date": "2021-08-10",
+                        "department_name": "Маркетинг",
+                        "manager": 27,
+                        "manager_name": "Елена Миронова",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "first_name": "Олег",
+                "last_name": "Иванов",
+                "job_title": "Старший аналитик",
+                "email": "oleg.ivanov@example.com",
+                "phone_number": "89012345678",
+                "hire_date": "2019-06-01",
+                "department_name": "Маркетинг",
+                "manager": 26,
+                "manager_name": "Сергей Кузнецов",
+                "subordinates": [
+                    {
+                        "id": 32,
+                        "first_name": "Анна",
+                        "last_name": "Зайцева",
+                        "job_title": "Аналитик",
+                        "email": "anna.zayceva@example.com",
+                        "phone_number": "89981112233",
+                        "hire_date": "2022-04-15",
+                        "department_name": "Маркетинг",
+                        "manager": 28,
+                        "manager_name": "Олег Иванов",
+                        "subordinates": [
+                            {
+                                "id": 33,
+                                "first_name": "Григорий",
+                                "last_name": "Чекан",
+                                "job_title": "Младший аналитик",
+                                "email": "grogori@mts.ru",
+                                "phone_number": "893324241",
+                                "hire_date": "2022-11-30",
+                                "department_name": "Маркетинг",
+                                "manager": 32,
+                                "manager_name": "Анна Зайцева",
+                                "subordinates": []
+                            },
+                            {
+                                "id": 34,
+                                "first_name": "Валерий",
+                                "last_name": "Блок",
+                                "job_title": "Младший аналитик",
+                                "email": "example.valery@gmail.com",
+                                "phone_number": "892423133411",
+                                "hire_date": "2019-03-15",
+                                "department_name": "Маркетинг",
+                                "manager": 32,
+                                "manager_name": "Анна Зайцева",
+                                "subordinates": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "first_name": "Татьяна",
+                "last_name": "Соколова",
+                "job_title": "SMM-менеджер",
+                "email": "tatyana.sokolova@example.com",
+                "phone_number": "89991234567",
+                "hire_date": "2020-11-20",
+                "department_name": "Маркетинг",
+                "manager": 26,
+                "manager_name": "Сергей Кузнецов",
+                "subordinates": []
+            },
+            {
+                "id": 31,
+                "first_name": "Ксения",
+                "last_name": "Федорова",
+                "job_title": "Email-маркетолог",
+                "email": "ksenia.fedorova@example.com",
+                "phone_number": "89191112233",
+                "hire_date": "2017-09-05",
+                "department_name": "Маркетинг",
+                "manager": 26,
+                "manager_name": "Сергей Кузнецов",
+                "subordinates": []
+            }
+        ]
+    }
+]

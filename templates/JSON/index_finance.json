@@ -1,0 +1,98 @@
+[
+    {
+        "id": 41,
+        "first_name": "Александр",
+        "last_name": "Волков",
+        "job_title": "Финансовый директор",
+        "email": "alexander.volkov@example.com",
+        "phone_number": "89012223344",
+        "hire_date": "2015-04-10",
+        "department_name": "Финансы",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 51,
+                "first_name": "Ольга",
+                "last_name": "Жукова",
+                "job_title": "Старший бухгалтер",
+                "email": "olga.zhukova@example.com",
+                "phone_number": "89109990011",
+                "hire_date": "2017-06-01",
+                "department_name": "Финансы",
+                "manager": 41,
+                "manager_name": "Александр Волков",
+                "subordinates": [
+                    {
+                        "id": 45,
+                        "first_name": "Виктория",
+                        "last_name": "Павлова",
+                        "job_title": "Бухгалтер",
+                        "email": "victoria.pavlova@example.com",
+                        "phone_number": "89115556677",
+                        "hire_date": "2018-02-15",
+                        "department_name": "Финансы",
+                        "manager": 51,
+                        "manager_name": "Ольга Жукова",
+                        "subordinates": [
+                            {
+                                "id": 47,
+                                "first_name": "Наталья",
+                                "last_name": "Семенова",
+                                "job_title": "Ассистент бухгалтера",
+                                "email": "natalia.semenova@example.com",
+                                "phone_number": "89107778899",
+                                "hire_date": "2021-03-15",
+                                "department_name": "Финансы",
+                                "manager": 45,
+                                "manager_name": "Виктория Павлова",
+                                "subordinates": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 52,
+                "first_name": "Михаил",
+                "last_name": "Григорьев",
+                "job_title": "Специалист по налогам",
+                "email": "mikhail.grigorev@example.com",
+                "phone_number": "89115556611",
+                "hire_date": "2019-12-10",
+                "department_name": "Финансы",
+                "manager": 41,
+                "manager_name": "Александр Волков",
+                "subordinates": [
+                    {
+                        "id": 56,
+                        "first_name": "Елена",
+                        "last_name": "Козлова",
+                        "job_title": "Финансовый консультант",
+                        "email": "elena.kozlova@example.com",
+                        "phone_number": "89112233445",
+                        "hire_date": "2020-02-20",
+                        "department_name": "Финансы",
+                        "manager": 52,
+                        "manager_name": "Михаил Григорьев",
+                        "subordinates": [
+                            {
+                                "id": 58,
+                                "first_name": "Артем",
+                                "last_name": "Серов",
+                                "job_title": "Младший аналитик",
+                                "email": "artem.serov@example.com",
+                                "phone_number": "89114445577",
+                                "hire_date": "2022-06-05",
+                                "department_name": "Финансы",
+                                "manager": 56,
+                                "manager_name": "Елена Козлова",
+                                "subordinates": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

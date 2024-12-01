@@ -1,0 +1,110 @@
+[
+    {
+        "id": 60,
+        "first_name": "Виктор",
+        "last_name": "Иванов",
+        "job_title": "Руководитель юридического отдела",
+        "email": "victor.ivanov@example.com",
+        "phone_number": "89998887766",
+        "hire_date": "2015-03-15",
+        "department_name": "Юридический отдел",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 63,
+                "first_name": "Анна",
+                "last_name": "Петрова",
+                "job_title": "Старший юрист",
+                "email": "anna.petrova@example.com",
+                "phone_number": "89015556677",
+                "hire_date": "2017-04-10",
+                "department_name": "Юридический отдел",
+                "manager": 60,
+                "manager_name": "Виктор Иванов",
+                "subordinates": [
+                    {
+                        "id": 65,
+                        "first_name": "Елена",
+                        "last_name": "Соколова",
+                        "job_title": "Юрисконсульт",
+                        "email": "elena.sokolova@example.com",
+                        "phone_number": "89115556688",
+                        "hire_date": "2018-06-20",
+                        "department_name": "Юридический отдел",
+                        "manager": 63,
+                        "manager_name": "Анна Петрова",
+                        "subordinates": [
+                            {
+                                "id": 68,
+                                "first_name": "Наталья",
+                                "last_name": "Жукова",
+                                "job_title": "Юрист-консультант",
+                                "email": "natalya.zhukova@example.com",
+                                "phone_number": "89995556611",
+                                "hire_date": "2019-08-15",
+                                "department_name": "Юридический отдел",
+                                "manager": 65,
+                                "manager_name": "Елена Соколова",
+                                "subordinates": []
+                            },
+                            {
+                                "id": 70,
+                                "first_name": "Виктория",
+                                "last_name": "Романова",
+                                "job_title": "Помощник юриста",
+                                "email": "viktoria.romanova@example.com",
+                                "phone_number": "89998887744",
+                                "hire_date": "2022-03-20",
+                                "department_name": "Юридический отдел",
+                                "manager": 65,
+                                "manager_name": "Елена Соколова",
+                                "subordinates": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": 71,
+                        "first_name": "Ольга",
+                        "last_name": "Волкова",
+                        "job_title": "Специалист по договорному праву",
+                        "email": "olga.volkova@example.com",
+                        "phone_number": "89114445522",
+                        "hire_date": "2020-10-05",
+                        "department_name": "Юридический отдел",
+                        "manager": 63,
+                        "manager_name": "Анна Петрова",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 67,
+                "first_name": "Дмитрий",
+                "last_name": "Павлов",
+                "job_title": "Специалист по трудовому праву",
+                "email": "dmitry.pavlov@example.com",
+                "phone_number": "89112233455",
+                "hire_date": "2020-02-10",
+                "department_name": "Юридический отдел",
+                "manager": 60,
+                "manager_name": "Виктор Иванов",
+                "subordinates": [
+                    {
+                        "id": 69,
+                        "first_name": "Михаил",
+                        "last_name": "Орлов",
+                        "job_title": "Специалист по корпоративному праву",
+                        "email": "mikhail.orlov@example.com",
+                        "phone_number": "89991112233",
+                        "hire_date": "2021-05-01",
+                        "department_name": "Юридический отдел",
+                        "manager": 67,
+                        "manager_name": "Дмитрий Павлов",
+                        "subordinates": []
+                    }
+                ]
+            }
+        ]
+    }
+]

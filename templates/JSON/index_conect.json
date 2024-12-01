@@ -1,0 +1,82 @@
+[
+    {
+        "id": 35,
+        "first_name": "Виктор",
+        "last_name": "Соколов",
+        "job_title": "Руководитель отдела связи",
+        "email": "viktor.sokolov@example.com",
+        "phone_number": "89012345678",
+        "hire_date": "2016-07-20",
+        "department_name": "Связи",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 36,
+                "first_name": "Наталья",
+                "last_name": "Тихонова",
+                "job_title": "Менеджер по связям с общественностью",
+                "email": "natalia.tikhonova@example.com",
+                "phone_number": "89991234567",
+                "hire_date": "2018-10-15",
+                "department_name": "Связи",
+                "manager": 35,
+                "manager_name": "Виктор Соколов",
+                "subordinates": [
+                    {
+                        "id": 38,
+                        "first_name": "Ирина",
+                        "last_name": "Орлова",
+                        "job_title": "Секретарь отдела",
+                        "email": "irina.orlova@example.com",
+                        "phone_number": "89113334455",
+                        "hire_date": "2021-05-10",
+                        "department_name": "Связи",
+                        "manager": 36,
+                        "manager_name": "Наталья Тихонова",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "first_name": "Алексей",
+                "last_name": "Зотов",
+                "job_title": "Оператор связи",
+                "email": "alexey.zotov@example.com",
+                "phone_number": "89112223344",
+                "hire_date": "2019-01-20",
+                "department_name": "Связи",
+                "manager": 35,
+                "manager_name": "Виктор Соколов",
+                "subordinates": []
+            },
+            {
+                "id": 39,
+                "first_name": "Дмитрий",
+                "last_name": "Морозов",
+                "job_title": "Технический специалист",
+                "email": "dmitry.morozov@example.com",
+                "phone_number": "89104445566",
+                "hire_date": "2017-03-15",
+                "department_name": "Связи",
+                "manager": 35,
+                "manager_name": "Виктор Соколов",
+                "subordinates": []
+            },
+            {
+                "id": 40,
+                "first_name": "Ольга",
+                "last_name": "Козлова",
+                "job_title": "Специалист по связям с клиентами",
+                "email": "olga.kozlova@example.com",
+                "phone_number": "89106667788",
+                "hire_date": "2020-11-01",
+                "department_name": "Связи",
+                "manager": 35,
+                "manager_name": "Виктор Соколов",
+                "subordinates": []
+            }
+        ]
+    }
+]

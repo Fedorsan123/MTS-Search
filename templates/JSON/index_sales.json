@@ -1,0 +1,122 @@
+[
+    {
+        "id": 53,
+        "first_name": "Алексей",
+        "last_name": "Романов",
+        "job_title": "Руководитель отдела продаж",
+        "email": "alexey.romanov@example.com",
+        "phone_number": "89998887766",
+        "hire_date": "2015-02-15",
+        "department_name": "Продажи",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 54,
+                "first_name": "Ольга",
+                "last_name": "Васильева",
+                "job_title": "Старший менеджер по продажам",
+                "email": "olga.vasilyeva@example.com",
+                "phone_number": "89016667788",
+                "hire_date": "2017-05-10",
+                "department_name": "Продажи",
+                "manager": 53,
+                "manager_name": "Алексей Романов",
+                "subordinates": [
+                    {
+                        "id": 55,
+                        "first_name": "Сергей",
+                        "last_name": "Морозов",
+                        "job_title": "Менеджер по продажам",
+                        "email": "sergey.morozov@example.com",
+                        "phone_number": "89117778899",
+                        "hire_date": null,
+                        "department_name": "Продажи",
+                        "manager": 54,
+                        "manager_name": "Ольга Васильева",
+                        "subordinates": [
+                            {
+                                "id": 73,
+                                "first_name": "Елена",
+                                "last_name": "Тихонова",
+                                "job_title": "Ассистент менеджера по продажам",
+                                "email": "elena.tikhonova@example.com",
+                                "phone_number": "89991112233",
+                                "hire_date": "2019-07-25",
+                                "department_name": "Продажи",
+                                "manager": 55,
+                                "manager_name": "Сергей Морозов",
+                                "subordinates": []
+                            },
+                            {
+                                "id": 76,
+                                "first_name": "Антон",
+                                "last_name": "Григорьев",
+                                "job_title": "Специалист по ключевым клиентам",
+                                "email": "anton.grigorev@example.com",
+                                "phone_number": "89112233466",
+                                "hire_date": "2021-08-15",
+                                "department_name": "Продажи",
+                                "manager": 55,
+                                "manager_name": "Сергей Морозов",
+                                "subordinates": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": 72,
+                        "first_name": "Андрей",
+                        "last_name": "Петров",
+                        "job_title": "Специалист по холодным продажам",
+                        "email": "andrey.petrovd@example.com",
+                        "phone_number": "89995556677",
+                        "hire_date": "2021-04-15",
+                        "department_name": "Продажи",
+                        "manager": 54,
+                        "manager_name": "Ольга Васильева",
+                        "subordinates": []
+                    },
+                    {
+                        "id": 74,
+                        "first_name": "Михаил",
+                        "last_name": "Зайцев",
+                        "job_title": "Оператор обработки заказов",
+                        "email": "mikhail.zaytsev@example.com",
+                        "phone_number": "89012223344",
+                        "hire_date": "2022-01-15",
+                        "department_name": "Продажи",
+                        "manager": 54,
+                        "manager_name": "Ольга Васильева",
+                        "subordinates": []
+                    },
+                    {
+                        "id": 75,
+                        "first_name": "Татьяна",
+                        "last_name": "Орлова",
+                        "job_title": "Менеджер по заключению сделок",
+                        "email": "tatyana.orlova@example.com",
+                        "phone_number": "89119990011",
+                        "hire_date": "2018-10-10",
+                        "department_name": "Продажи",
+                        "manager": 54,
+                        "manager_name": "Ольга Васильева",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 57,
+                "first_name": "Наталья",
+                "last_name": "Козлова",
+                "job_title": "Менеджер по работе с клиентами",
+                "email": "natalya.kozlova@example.com",
+                "phone_number": "89112233445",
+                "hire_date": "2020-02-20",
+                "department_name": "Продажи",
+                "manager": 53,
+                "manager_name": "Алексей Романов",
+                "subordinates": []
+            }
+        ]
+    }
+]

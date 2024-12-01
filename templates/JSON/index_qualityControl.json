@@ -1,0 +1,69 @@
+[
+    {
+        "id": 59,
+        "first_name": "Александр",
+        "last_name": "Смирнов",
+        "job_title": "Руководитель отдела",
+        "email": "alexander.smirnov@example.com",
+        "phone_number": "89998887777",
+        "hire_date": "2015-05-15",
+        "department_name": "Отдел по управлению качеством",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 61,
+                "first_name": "Ирина",
+                "last_name": "Соколова",
+                "job_title": "Ведущий инженер по качеству",
+                "email": "irina.sokolova@example.com",
+                "phone_number": "89117778866",
+                "hire_date": "2017-09-20",
+                "department_name": "Отдел по управлению качеством",
+                "manager": 59,
+                "manager_name": "Александр Смирнов",
+                "subordinates": [
+                    {
+                        "id": 62,
+                        "first_name": "Михаил",
+                        "last_name": "Тихонов",
+                        "job_title": "Инженер по тестированию",
+                        "email": "mikhail.tikhonov@example.com",
+                        "phone_number": "89998887744",
+                        "hire_date": "2019-11-01",
+                        "department_name": "Отдел по управлению качеством",
+                        "manager": 61,
+                        "manager_name": "Ирина Соколова",
+                        "subordinates": []
+                    },
+                    {
+                        "id": 64,
+                        "first_name": "Татьяна",
+                        "last_name": "Волкова",
+                        "job_title": "Специалист по контролю качества",
+                        "email": "tatyana.volkova@example.com",
+                        "phone_number": "89112233456",
+                        "hire_date": "2020-06-15",
+                        "department_name": "Отдел по управлению качеством",
+                        "manager": 61,
+                        "manager_name": "Ирина Соколова",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 66,
+                "first_name": "Дмитрий",
+                "last_name": "Королев",
+                "job_title": "Специалист по сертификации",
+                "email": "dmitrykorolevy@example.ru",
+                "phone_number": "89112233459",
+                "hire_date": "2023-11-30",
+                "department_name": "Отдел по управлению качеством",
+                "manager": 59,
+                "manager_name": "Александр Смирнов",
+                "subordinates": []
+            }
+        ]
+    }
+]

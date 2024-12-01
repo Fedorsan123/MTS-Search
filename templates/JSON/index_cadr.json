@@ -1,0 +1,83 @@
+[
+    {
+        "id": 12,
+        "first_name": "Артем",
+        "last_name": "Маркин",
+        "job_title": "Директор",
+        "email": "artem.boyvan@mail.ru",
+        "phone_number": "+71234567878",
+        "hire_date": "2024-11-30",
+        "department_name": "Кадры",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 13,
+                "first_name": "Артур",
+                "last_name": "Семенов",
+                "job_title": "Старший бухгалтер",
+                "email": "example@mts.com",
+                "phone_number": "+71234567878",
+                "hire_date": "2024-10-01",
+                "department_name": "Кадры",
+                "manager": 12,
+                "manager_name": "Артем Маркин",
+                "subordinates": [
+                    {
+                        "id": 17,
+                        "first_name": "Максим",
+                        "last_name": "Корнийчук",
+                        "job_title": "Бухгалтер",
+                        "email": "example6@mts.com",
+                        "phone_number": "+71234567878",
+                        "hire_date": "2024-11-30",
+                        "department_name": "Кадры",
+                        "manager": 13,
+                        "manager_name": "Артур Семенов",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "first_name": "Степан",
+                "last_name": "Мельников",
+                "job_title": "Старший HR",
+                "email": "example4@mts.com",
+                "phone_number": "+71234567878",
+                "hire_date": "2024-09-30",
+                "department_name": "Кадры",
+                "manager": 12,
+                "manager_name": "Артем Маркин",
+                "subordinates": [
+                    {
+                        "id": 14,
+                        "first_name": "Кирилл",
+                        "last_name": "Кольцов",
+                        "job_title": "HR",
+                        "email": "example2@mts.com",
+                        "phone_number": "+71234567878",
+                        "hire_date": "2024-11-30",
+                        "department_name": "Кадры",
+                        "manager": 16,
+                        "manager_name": "Степан Мельников",
+                        "subordinates": []
+                    },
+                    {
+                        "id": 15,
+                        "first_name": "Александр",
+                        "last_name": "Костромин",
+                        "job_title": "HR",
+                        "email": "example3@mts.com",
+                        "phone_number": "+71234567878",
+                        "hire_date": "2021-11-30",
+                        "department_name": "Кадры",
+                        "manager": 16,
+                        "manager_name": "Степан Мельников",
+                        "subordinates": []
+                    }
+                ]
+            }
+        ]
+    }
+]

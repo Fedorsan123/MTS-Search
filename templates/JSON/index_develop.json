@@ -1,0 +1,56 @@
+[
+  {
+      "id": 1,
+      "first_name": "Петр",
+      "last_name": "Иванов",
+      "job_title": "Операционный директор",
+      "email": "petrivanov@mts.ru",
+      "phone_number": null,
+      "hire_date": "2024-11-30",
+      "department_name": "Разработка",
+      "manager": null,
+      "manager_name": null,
+      "subordinates": [
+          {
+              "id": 2,
+              "first_name": "Иван",
+              "last_name": "Иванов",
+              "job_title": "Директор по разработке",
+              "email": "ivan.ivanov@example.com",
+              "phone_number": "1234567890",
+              "hire_date": "2020-01-15",
+              "department_name": "Разработка",
+              "manager": 1,
+              "manager_name": "Петр Иванов",
+              "subordinates": [
+                  {
+                      "id": 18,
+                      "first_name": "Фёдор",
+                      "last_name": "Толочко",
+                      "job_title": "Frontend разработчик",
+                      "email": "fedor2006san@gmail.com",
+                      "phone_number": "89241133476",
+                      "hire_date": "2023-11-30",
+                      "department_name": "Разработка",
+                      "manager": 2,
+                      "manager_name": "Иван Иванов",
+                      "subordinates": []
+                  }
+              ]
+          },
+          {
+              "id": 3,
+              "first_name": "Петр",
+              "last_name": "Петров",
+              "job_title": "Главный дизайнер",
+              "email": "petr.petrov@example.com",
+              "phone_number": "1234567891",
+              "hire_date": "2019-03-10",
+              "department_name": "Разработка",
+              "manager": 1,
+              "manager_name": "Петр Иванов",
+              "subordinates": []
+          }
+      ]
+  }
+]

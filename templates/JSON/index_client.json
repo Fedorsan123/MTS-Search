@@ -1,0 +1,96 @@
+[
+    {
+        "id": 42,
+        "first_name": "Анастасия",
+        "last_name": "Морозова",
+        "job_title": "Руководитель отдела",
+        "email": "anastasia.morozova@example.com",
+        "phone_number": "89993334455",
+        "hire_date": "2016-02-20",
+        "department_name": "Клиентское обслуживание",
+        "manager": null,
+        "manager_name": null,
+        "subordinates": [
+            {
+                "id": 43,
+                "first_name": "Дмитрий",
+                "last_name": "Кузнецов",
+                "job_title": "Специалист по работе с клиентами",
+                "email": "dmitry.kuznetsov@example.com",
+                "phone_number": "89012233445",
+                "hire_date": "2019-08-15",
+                "department_name": "Клиентское обслуживание",
+                "manager": 42,
+                "manager_name": "Анастасия Морозова",
+                "subordinates": [
+                    {
+                        "id": 48,
+                        "first_name": "Татьяна",
+                        "last_name": "Королева",
+                        "job_title": "Секретарь клиентского отдела",
+                        "email": "tatyana.koroleva@example.com",
+                        "phone_number": "89115556677",
+                        "hire_date": "2021-09-10",
+                        "department_name": "Клиентское обслуживание",
+                        "manager": 43,
+                        "manager_name": "Дмитрий Кузнецов",
+                        "subordinates": []
+                    },
+                    {
+                        "id": 49,
+                        "first_name": "Алексей",
+                        "last_name": "Григорьев",
+                        "job_title": "Оператор колл-центра",
+                        "email": "alexey.grigorev@example.com",
+                        "phone_number": "89998887766",
+                        "hire_date": "2022-02-15",
+                        "department_name": "Клиентское обслуживание",
+                        "manager": 43,
+                        "manager_name": "Дмитрий Кузнецов",
+                        "subordinates": []
+                    },
+                    {
+                        "id": 50,
+                        "first_name": "Ксения",
+                        "last_name": "Орлова",
+                        "job_title": "Оператор колл-центра",
+                        "email": "ksenia.orlova@example.com",
+                        "phone_number": "89104445533",
+                        "hire_date": "2018-04-01",
+                        "department_name": "Клиентское обслуживание",
+                        "manager": 43,
+                        "manager_name": "Дмитрий Кузнецов",
+                        "subordinates": []
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "first_name": "Ольга",
+                "last_name": "Федорова",
+                "job_title": "Менеджер клиентской службы",
+                "email": "olga.fedorova@example.com",
+                "phone_number": "89112233445",
+                "hire_date": "2018-03-10",
+                "department_name": "Клиентское обслуживание",
+                "manager": 42,
+                "manager_name": "Анастасия Морозова",
+                "subordinates": [
+                    {
+                        "id": 46,
+                        "first_name": "Игорь",
+                        "last_name": "Лебедев",
+                        "job_title": "Специалист по обработке заявок",
+                        "email": "igor.lebedev@example.com",
+                        "phone_number": "89993334455",
+                        "hire_date": "2020-06-01",
+                        "department_name": "Клиентское обслуживание",
+                        "manager": 44,
+                        "manager_name": "Ольга Федорова",
+                        "subordinates": []
+                    }
+                ]
+            }
+        ]
+    }
+]
