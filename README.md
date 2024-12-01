@@ -14,5 +14,12 @@ MVP веб-приложения с современным дизайном дл�
 -Django rest framework
 
 Ссылка на видео с примером работы приложения:
-
 https://drive.google.com/file/d/1QWUzCXVZGggCy6Fu5jwTlcCzECxTueU8/view
+
+
+Размещение Frontend:
+https://fedorsan123.github.io/MTS-Search/templates/index.html
+
+
+Размещение Backend:
+humanbeing11.pythonanywhere.com
